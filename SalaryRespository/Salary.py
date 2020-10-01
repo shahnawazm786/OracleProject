@@ -31,3 +31,32 @@ class EmployeeSalary:
     def da(self,da):
         self.DA=da
         
+    @property
+    def ta(self):
+        return self.TA
+    @ta.setter
+    def ta(self,ta):
+        self.TA=ta
+    
+    @property
+    def phone(self):
+        return self.Phone
+    @phone.setter
+    def phone(self,ph):
+        self.Phone=ph
+    @property
+    def hra(self):
+        return self.HRA
+    @hra.setter
+    def hra(self,hr):
+        self.HRA=hr
+    
+    @property
+    def it(self):
+        return self.IT
+    @it.setter
+    def it(self,its):
+        self.IT=its
+        
+        
+    
