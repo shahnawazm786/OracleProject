@@ -1,0 +1,7 @@
+Create table Tbl_Mst_Salary
+(
+ID Number(10) primary key,
+Salary Number(15,3) not null,
+Emp_ID Number(10) not null,
+Create_Date date,
+Update_Date date);
